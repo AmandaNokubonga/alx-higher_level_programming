@@ -3,13 +3,13 @@
 /**
  * print_python_list_info - prints information about a Python list
  * @p: pointer to PyObject
- * Return: This function is of void type 
+ * Return: This function is of void type
  * and doesn't return any value
  */
 void print_python_list_info(PyObject *p)
 {
 	long int s, a, i;
-    PyObject *pyitem;
+	PyObject *pyitem;
 
 	s = PyList_Size(p);
 	a = ((PyListObject *)p)->allocated;
