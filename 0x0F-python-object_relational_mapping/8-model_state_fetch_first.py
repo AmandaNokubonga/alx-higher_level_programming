@@ -9,7 +9,7 @@ from model_state import State, Base
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     """
     Access to the database and get a state
     from the database.
