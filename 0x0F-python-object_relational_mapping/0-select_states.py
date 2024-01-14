@@ -5,7 +5,7 @@
 import MySQLdb
 from sys import argv
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     """Accesses the database server"""
     db = MySQLdb.connect(
             host="localhost",
