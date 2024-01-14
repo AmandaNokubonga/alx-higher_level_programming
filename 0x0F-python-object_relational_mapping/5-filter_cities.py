@@ -8,7 +8,7 @@ state, using the database hbtn_0e_4_usa.
 import MySQLdb as db
 from sys import argv
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     """
     Access to the database and get the cities
     from the database.

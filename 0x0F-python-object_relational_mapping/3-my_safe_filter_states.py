@@ -11,7 +11,7 @@ MySQL injections!
 import MySQLdb as db
 from sys import argv
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     """
     Access to the database and get the states
     from the database.
